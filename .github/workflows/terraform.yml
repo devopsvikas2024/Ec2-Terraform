@@ -33,7 +33,7 @@ jobs:
         run: terraform init
 
       - name: Plan Terraform
-        run: terraform plan
+        run: terraform plan -debug
 
       - name: Apply Terraform Changes
         run: terraform apply -auto-approve -debug
