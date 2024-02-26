@@ -5,7 +5,7 @@ provider "aws" {
 }
 
 resource "aws_security_group" "example_sg" {
-  name        = "SSH-security-group"
+  name        = "SSH-sg"
   description = "Allow SSH traffic"
   
   ingress {
